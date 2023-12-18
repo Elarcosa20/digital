@@ -1,0 +1,35 @@
+body{
+    color: white;
+    background: url(https://media4.giphy.com/media/mATqoqwcLzqNKkLcOR/giphy.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    }
+    
+    .container{
+        border: 1px solid rgb(0, 0, 0);  
+        height: auto;
+        width: 500px;
+        margin: 30px auto;
+        padding: 50px;
+        border-radius: 20px;
+        background: transparent ;
+        backdrop-filter: blur(5px);
+        border-radius: 25px;
+        box-shadow:  5px 5px 10px #707070,
+                     -5px -5px 10px #9a9a9a;
+        
+    }
+    
+    
+    input {
+        background: none;
+        border: none;
+        outline: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 9999px;
+        box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+        color: #fff;
+      }
